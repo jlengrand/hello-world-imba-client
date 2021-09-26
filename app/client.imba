@@ -22,7 +22,6 @@ tag app
 	def fetch
 		const dataFetch = await window.fetch("/todos")
 		data = await dataFetch.json()
-		console.log(data)
 
 	def mount
 		fetch()
